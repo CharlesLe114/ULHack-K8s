@@ -6,7 +6,7 @@ metadata:
 spec:
   externalTrafficPolicy: Cluster
   selector:
-    app: master
+    app: backer
   ports:
   - port: 3001
     targetPort: 3001
