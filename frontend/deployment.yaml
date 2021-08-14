@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: lebaotoan/zgoalizt-fe:v2.3
+        image: lebaotoan/zgoalizt-fe:latest
         # resources:
         #   limits:
         #     memory: "128Mi"
