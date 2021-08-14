@@ -15,6 +15,15 @@ spec:
       containers:
       - name: backend
         image: lebaotoan/zgoalizt-be:v1.0
+        env:
+          - name: DB_HOST
+            value: mysql.db.svc.cluster.local:3306
+          - name: DB_USER
+            value: toan
+          - name: DB_PASS
+            value: toan
+          - name: DB_NAME
+            value: todolist
         # resources:
         #   limits:
         #     memory: "128Mi"
