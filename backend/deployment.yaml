@@ -19,9 +19,9 @@ spec:
           - name: DB_HOST
             value: 10.245.149.178
           - name: DB_USER
-            value: toan
+            value: root
           - name: DB_PASS
-            value: toan
+            value: khR3hR8NgG
           - name: DB_NAME
             value: todolist
         # resources:
