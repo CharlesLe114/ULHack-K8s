@@ -5,7 +5,7 @@ metadata:
 spec:
   externalTrafficPolicy: Cluster
   selector:
-    app: master
+    app: frontend
   ports:
   - port: 80
     targetPort: 3000
