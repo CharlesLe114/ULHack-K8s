@@ -15,9 +15,9 @@ spec:
       containers:
       - name: backend
         image: lebaotoan/zgoalizt-be:v1.0
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
+        # resources:
+        #   limits:
+        #     memory: "128Mi"
+        #     cpu: "500m"
         ports:
         - containerPort: 3001
