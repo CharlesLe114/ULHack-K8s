@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: lebaotoan/zgoalizt-be:v1.0
+        image: lebaotoan/zgoalizt-be:v1.1
         env:
           - name: DB_HOST
             value: 10.245.149.178
